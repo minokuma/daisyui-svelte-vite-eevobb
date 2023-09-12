@@ -17,9 +17,10 @@
 
 <input type="checkbox" id="my-modal-3" class="modal-toggle"> 
 <div class="modal">
-  <div class="modal-box">
-    <p>안녕하세여2</p>
-    <div class="modal-action flex justify-center items-stretch">
+  <div class="modal-box  w-1/2">
+    <p>로그아웃 하시겠습니까?</p>
+    <p></p>
+    <div class="modal-action flex justify-center items-stretch space-x-4">
       <label for="my-modal-3" class="btn btn-primary w-1/2">확인</label> <!-- 절반 너비로 설정 -->
       <label for="my-modal-3" class="btn w-1/2">취소</label> <!-- 절반 너비로 설정 -->
     </div>
