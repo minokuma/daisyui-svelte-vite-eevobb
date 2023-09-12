@@ -19,9 +19,9 @@
 <div class="modal">
   <div class="modal-box">
     <p>안녕하세여2</p>
-    <div class="modal-action flex items-stretch">
-      <label for="my-modal-3" class="btn btn-primary">확인</label> 
-      <label for="my-modal-3" class="btn">취소</label>
+    <div class="modal-action flex justify-center items-stretch">
+      <label for="my-modal-3" class="btn btn-primary w-1/2">확인</label> <!-- 절반 너비로 설정 -->
+      <label for="my-modal-3" class="btn w-1/2">취소</label> <!-- 절반 너비로 설정 -->
     </div>
   </div>
 </div>
