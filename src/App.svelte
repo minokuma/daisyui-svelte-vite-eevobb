@@ -13,7 +13,7 @@
 
 <!-- Open the modal using ID.showModal() method -->
 <!-- Open the modal using ID.showModal() method -->
-<label for="my-modal-2" class="btn btn-primary modal-button">open modal</label> 
+<label for="my-modal-2" class="btn btn-primary modal-button">모달 열기</label> 
 <input type="checkbox" id="my-modal-2" class="modal-toggle"> 
 <div class="modal">
   <div class="modal-box">
