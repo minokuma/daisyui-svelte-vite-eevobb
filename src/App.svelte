@@ -13,14 +13,15 @@
 
 <!-- Open the modal using ID.showModal() method -->
 <!-- Open the modal using ID.showModal() method -->
-<label for="my-modal-2" class="btn btn-primary modal-button">모달 열기</label> 
-<input type="checkbox" id="my-modal-2" class="modal-toggle"> 
+<label for="my-modal-3" class="btn btn-primary modal-button">모달 열기</label> 
+
+<input type="checkbox" id="my-modal-3" class="modal-toggle"> 
 <div class="modal">
   <div class="modal-box">
-    <p>안녕하세여</p> 
-    <div class="modal-action">
-      <label for="my-modal-2" class="btn btn-primary">확인</label> 
-      <label for="my-modal-2" class="btn">취소</label>
+    <p>안녕하세여2</p>
+    <div class="modal-action flex items-stretch">
+      <label for="my-modal-3" class="btn btn-primary">확인</label> 
+      <label for="my-modal-3" class="btn">취소</label>
     </div>
   </div>
 </div>
