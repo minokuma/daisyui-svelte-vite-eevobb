@@ -17,7 +17,7 @@
 
 <input type="checkbox" id="my-modal-3" class="modal-toggle"> 
 <div class="modal">
-  <div class="modal-box  w-1/2">
+  <div class="modal-box  w-2/3">
     <p>로그아웃 하시겠습니까?</p>
     <p></p>
     <div class="modal-action flex justify-center items-stretch space-x-4">
