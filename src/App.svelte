@@ -13,14 +13,14 @@
 
 <!-- Open the modal using ID.showModal() method -->
 <!-- Open the modal using ID.showModal() method -->
-<button class="btn" onclick="my_modal_2.showModal()">open modal</button>
-
-<dialog id="my_modal_2" class="modal">
+<label for="my-modal-2" class="btn btn-primary modal-button">open modal</label> 
+<input type="checkbox" id="my-modal-2" class="modal-toggle"> 
+<div class="modal">
   <div class="modal-box">
-    <h3 class="font-bold text-lg">Hello!</h3>
-    <p class="py-4">Press ESC key or click outside to close</p>
+    <p>안녕하세여</p> 
+    <div class="modal-action">
+      <label for="my-modal-2" class="btn btn-primary">확인</label> 
+      <label for="my-modal-2" class="btn">취소</label>
+    </div>
   </div>
-  <form method="dialog" class="modal-backdrop">
-    <button>close</button>
-  </form>
-</dialog>
+</div>
