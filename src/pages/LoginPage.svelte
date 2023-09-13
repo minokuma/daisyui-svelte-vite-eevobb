@@ -1,4 +1,6 @@
 <script>
+  import AuthHeaderComp from '../components/AuthHeaderComp.svelte'
+  import AuthLoginComp from '../components/AuthLoginComp.svelte'
   import {
     // Styles,
     Button,
@@ -10,12 +12,15 @@
 
   let isModalOpen = false;
   const modalToggle = () => (isModalOpen = !isModalOpen);
-
 </script>
 
 <svelte:head>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
 </svelte:head>
+
+<AuthHeaderComp />
+<main>
+  <AuthLoginComp />
 
 <Button color="danger" on:click={modalToggle} >모달</Button>
 
@@ -31,3 +36,4 @@
     </ModalFooter>
   </Modal>
 </div>
+</main>
